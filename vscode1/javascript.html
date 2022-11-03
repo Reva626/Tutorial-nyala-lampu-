@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Nyalakan lampu</title>
+</head>
+<body>
+    <img id="lampunya" src="https://st2.depositphotos.com/1742172/9631/v/150/depositphotos_96314040-stock-illustration-cartoon-light-bulb.jpg" height="200" width="250">
+    <button type="button" onclick="nyalalampu()"> Turn On</button><br>
+    <button type="button" onclick="matilampu()"> Turn Off</button><br>
+
+    <script>
+        var image = document.getElementById("lampunya") 
+        function nyalalampu(){
+            image.src="https://st4.depositphotos.com/1742172/22224/v/150/depositphotos_222244666-stock-illustration-cartoon-doodle-light-bulb.jpg" 
+        }
+        function matilampu(){
+            image.src="https://st2.depositphotos.com/1742172/9631/v/150/depositphotos_96314040-stock-illustration-cartoon-light-bulb.jpg"
+        }
+
+    </script>
+</body>
+</html>
